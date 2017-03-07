@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography Basics - Map</title>
+    <script src="js/jquery-2.2.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/rotate.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/stylesheet.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="nav" class="container">
+        <!-- Static navbar -->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Type Basics</a>
+                    <img id="img" src="images/circle.gif" style="max-width: 50px">
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="map.html">History Map</a></li>
+                        <li><a href="anatomy.html">Anatomy of Type</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+            <!--/.container-fluid -->
+        </nav>
+    </div>
+    <div id="main" class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <img id="california" class="map-img" src="images/california.png">
+                <img class="map-img1" src="images/california1.png">
+                <img id="newyork" class="map-img" src="images/newyork.png">
+                <img class="map-img1" src="images/newyork1.png">
+                <img id="germany" class="map-img" src="images/germany.png">
+                <img class="map-img1" src="images/germany1.png">
+                <img id="greece" class="map-img" src="images/greece.png">
+                <img class="map-img1" src="images/greece1.png">
+                <img id="lebanon" class="map-img" src="images/lebanon.png">
+                <img class="map-img1" src="images/lebanon1.png">
+                <img id="china" class="map-img" src="images/china.png">
+                <img class="map-img1" src="images/china1.png">
+            </div>
+        </div>
+        <div class="row">
+            <div id="map-info" class="col-md-9 map-info">Click on a location to learn more.</div>
+            <div id="california-info" class="col-md-9 map-info"><div class="col-md-9"><h3>California</h3>(1984 AD) Apple introduces the Macintosh, allowing for easy desktop publishing.</div><div class="col-md-3"><img src="images/mac.png" height="auto" width="100"></div></div>
+            <div id="newyork-info" class="col-md-9 map-info"><div class="col-md-9"><h3>New York</h3>(1960s AD) Phototypesetting becomes a popular form of print due to development of IBM computers.</div><div class="col-md-3"><img src="images/ibm.jpg" height="auto" width="100"></div></div>
+            <div id="germany-info" class="col-md-9 map-info"><div class="col-md-9"><h3>Germany</h3>(1450 AD) Johann Gutenberg invents the handset movable type allowing for quick, inexpensive production of books.</div><div class="col-md-3"><img src="images/gutenberg.jpg" height="auto" width="100"></div></div>
+            <div id="greece-info" class="col-md-9 map-info"><div class="col-md-9"><h3>Greece</h3>(800 BC) Ancient Greeks create an alphabet based on the Phoenicians, adding vowels.</div><div class="col-md-3"><img src="images/greekalpha.png" height="auto" width="100"></div></div>
+            <div id="lebanon-info" class="col-md-9 map-info"><div class="col-md-9"><h3>Lebanon</h3>(1500 BC) The Phoenicians create phonograms. The Greeks would later derive their alphabet from the Phoenician alphabet. </div><div class="col-md-3"><img src="images/phoenician.png" height="auto" width="100"></div></div>
+            <div id="china-info" class="col-md-9 map-info"><div class="col-md-9"><h3>China</h3> (105 AD) Cai Lun, a Han dynasty official, invents the papermaking process.</div><div class="col-md-3"><img src="images/cailun.jpg" height="auto" width="100"></div></div>
+        </div>
+    </div>
+    <script src="js/script_map.js"></script>
+</body>
+
+</html>
